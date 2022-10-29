@@ -103,10 +103,14 @@ public class Menu
             Client[]? clie = _bankRepository.GetClientByName(name).ToArray();
             if (clie.Length == 0)
             {
-                Printer.InformColor("Something went wrong!", "DR");
+                Printer.InformColor("Client does not exist!", "DR");
                 return;
             }
-            foreach (dynamic x in clie) WriteLine("\t" + x);
+            foreach (dynamic x in clie)
+            {
+                Write("\n\tClient / ");
+                Printer.InformColor("" + x, "Gr");
+            }
         }
         catch (Exception ex) { Printer.InformColor(ex.Message, "DR"); }
     }
@@ -117,18 +121,18 @@ public class Menu
             Branch brand;
             while (true)
             {
-                brand = _bankRepository.GetBrand(Input.GetString("Enter branch name: "), "name");
+                brand = _bankRepository.GetBrand(Input.GetString("\nEnter branch name: "), "name");
                 if (brand != null) break;
             }
             Account account;
             while (true)
             {
-                account = _bankRepository.GetAccountByAccountNumber(Input.GetString("Enter account number: "), brand);
+                account = _bankRepository.GetAccountByAccountNumber(Input.GetString("\nEnter account number: "), brand);
                 if (account != null) break;
             }
             while (true)
             {
-                Write("\nYour balance : ");
+                Write("\nYour balance : $");
                 Printer.InformColor(account?.Balance.ToString() + "\n", "Cy");
                 string type = Input.GetString("Enter type (D/W): ");
                 if ("D".Equals(type) || "W".Equals(type))
@@ -181,7 +185,7 @@ public class Menu
         Branch brand;
         while (true)
         {
-            brand = _bankRepository.GetBrand(Input.GetString("Enter branch name: "), "name");
+            brand = _bankRepository.GetBrand(Input.GetString("\nEnter branch name: "), "name");
             if (brand != null) break;
         }
         List<Client> clients = _bankRepository.GetClientListByBranch(brand).OrderBy(c => _bankRepository.GetTotalBalanceOfEachClient(c))
