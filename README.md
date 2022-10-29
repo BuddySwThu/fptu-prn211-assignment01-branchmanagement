@@ -1,62 +1,73 @@
-# Project Title
+# Assigment 01 - for individual (LO01 and LO02)
+Bài tập lấy điểm LO01 và LO02 dành cho học phần lập trình hướng đối tượng + Collections + Delegate và LinQ.
+Note: do yourself
 
-Simple overview of use/purpose.
 
 ## Description
+1. Mô tả bài toán: Một chi nhánh của Ngân hàng Techcombank có nhiều khách hàng, mỗi khách hàng có nhiều tài khoản và mỗi tài khoản có nhiều giao dịch. Theo
+các mô tả sau:
+   - Thông tin Chi nhánh ngân hàng gồm:
+      o Mã chi nhánh
+      o Tên chi nhánh
+      o Địa chỉ
+      o Danh sách các khách hàng
+   
+   - Thông tin Khách hàng gồm:
+      o Mã khách hàng
+      o Tên khách hàng
+      o Địa chỉ gồm: thôn, xã/phường, quận/huyện và tỉnh/thành phố
+      o Danh sách các tài khoản mà Khách hàng này có
 
-An in-depth paragraph about your project and overview of use.
+   - Thông tin tài khoản tại ngân hàng gồm:
+      o Số tài khoản
+      o Số dư
+      o Danh sách các giao dịch của tài khoản
+
+   - Thông tin các giao dịch của một tài khoản gồm
+      o Mã giao dịch
+      o Ngày giao dịch
+      o Số tiền giao dịch
+      o Loại giao dịch (W: rút, D: gửi)
+      
+2. Thực hiện: Viết chương trình hướng đối tượng bằng ngôn ngữ C# trên nền tảng .NET thực hiện các yêu cầu sau:
+   a) Khai báo một chi nhánh và cho phép:
+       Nhập nhiều khách hàng vào một Chi nhánh;
+       Cho phép thêm nhiều tài khoản vào một khách hàng;
+   b) Cho phép in ra thông tin của một khách hàng bất kỳ;
+   c) Cho phép thực hiện gửi tiền và rút tiền vào một tài khoản bất kỳ của một khách hàng bất kỳ
+   d) Thực hiện in ra tất cả các giao dịch của tất cả các tài khoản, của tất cả khách hàng của chi nhánh ra màn hình;
+   e) Liệt kê tất cả các tài khoản có số dư lớn nhất của từng khách hàng trong Chi nhánh ra màn hình;
+   f) Sắp xếp tăng dần theo tổng số dư của từng khách hàng và in ra màn hình thông tin các khách hàng này;
+   g) Hiển thị khách hàng có tổng số lượng giao dịch nhiều nhất.
+
+   Note:
+      - Lập trình hướng đối tượng
+      - Sử dụng collection, generic và LinQ
+      - Sử dụng giao diện Console
+
 
 ## Getting Started
 
-### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### Dependencies
+   /Windows10Pro
+   /VisualStudio
+   /.NET6
+   /Singleton Design Pattern
+   /3-layers Structure
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
+Contributors names and contact info:
+   @budictreas_sgbt2502
+   [@suthanhtra](https://github.com/thanhtradev)
+   [@lam](https://github.com/vliam0206)
+   
+   
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
