@@ -1,3 +1,5 @@
+[![.NET](https://github.com/BuddySwThu/prn211-assignment01-tcbank-branchmanagement/actions/workflows/ci-dotnet.yml/badge.svg?branch=main)](https://github.com/BuddySwThu/prn211-assignment01-tcbank-branchmanagement/actions/workflows/ci-dotnet.yml)
+
 # Assigment 01 - for individual (LO01 and LO02)
 Bài tập lấy điểm LO01 và LO02 dành cho học phần lập trình hướng đối tượng + Collections + Delegate và LinQ.
 Note: do yourself
@@ -47,27 +49,19 @@ các mô tả sau:
 
 
 ## Getting Started
+![Console](https://github.com/BuddySwThu/prn211-assignment01-tcbank-branchmanagement/blob/main/screenshot/startingapplication.PNG)
 
-### Dependencies
+
+## Dependencies
    /Windows10Pro
    /VisualStudio
    /.NET6
    /Singleton Design Pattern
    /3-layers Structure
-
-
-### Installing
-
-### Executing program
-
-## Help
-
+   
+   
 ## Authors
-
 Contributors names and contact info:
    [@budictreas_sgbt2502](https://github.com/BuddySwThu)
    [@suthanhtra](https://github.com/thanhtradev)
    [@lam](https://github.com/vliam0206)
-   
-
-## License
