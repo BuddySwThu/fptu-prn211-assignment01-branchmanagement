@@ -40,7 +40,7 @@ các mô tả sau:
    f) Sắp xếp tăng dần theo tổng số dư của từng khách hàng và in ra màn hình thông tin các khách hàng này;
    g) Hiển thị khách hàng có tổng số lượng giao dịch nhiều nhất.
 
-   Note:
+   NOTE:
       - Lập trình hướng đối tượng
       - Sử dụng collection, generic và LinQ
       - Sử dụng giao diện Console
@@ -48,13 +48,13 @@ các mô tả sau:
 
 ## Getting Started
 
-
 ### Dependencies
    /Windows10Pro
    /VisualStudio
    /.NET6
    /Singleton Design Pattern
    /3-layers Structure
+
 
 ### Installing
 
@@ -65,9 +65,9 @@ các mô tả sau:
 ## Authors
 
 Contributors names and contact info:
-   @budictreas_sgbt2502
+   [@budictreas_sgbt2502](https://github.com/BuddySwThu)
    [@suthanhtra](https://github.com/thanhtradev)
    [@lam](https://github.com/vliam0206)
    
-   
+
 ## License
