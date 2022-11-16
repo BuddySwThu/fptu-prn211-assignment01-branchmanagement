@@ -50,14 +50,6 @@ các mô tả sau:
 
 ## Getting Started
 ![Console](https://github.com/BuddySwThu/prn211-assignment01-tcbank-branchmanagement/blob/main/screenshot/startingapplication.PNG)
-
-
-## Dependencies
-   /Windows10Pro
-   /VisualStudio
-   /.NET6
-   /Singleton Design Pattern
-   /3-layers Structure
    
    
 ## Authors
